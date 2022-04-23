@@ -11,6 +11,8 @@ public class RandomInteger {
 		int y = -1 - rand.nextInt(9); // (-1 ~ -9)
 		int z = 10 + rand.nextInt(90); //(10 ~ 99)
 		
+
+		
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(z);

@@ -10,11 +10,12 @@ public class Absolute1 {
 		System.out.print("정수값: ");
 		int x = stdIn.nextInt();
 		
-		if(x < 0) {
-			System.out.println("절댓값은 " + (x*(-1)) + "입니다. ");
+		if(x >= 0) { 
+			System.out.println("절대값은 " + x + "이다. ");
 		}
-		
-		
+		else {
+			System.out.println("절대값은 " + -x + "이다. ");
+		}
 	}
 
 }
