@@ -1,2 +1,2 @@
 # Java200
-Java200제
+Java200
